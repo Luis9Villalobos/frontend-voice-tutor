@@ -184,7 +184,7 @@ export default function ChatScreen({ session }: { session: Session | null }) {
     const recognition = new SpeechRecognitionCtor();
     recognition.continuous = false;
     recognition.interimResults = false;
-    recognition.lang = 'en-US';
+    recognition.lang = 'es-ES';
 
     recognition.onstart = () => {
       setIsRecording(true);
